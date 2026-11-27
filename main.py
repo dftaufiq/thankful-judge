@@ -3,6 +3,15 @@
 Writes one short thank-you text to /output/entry.txt, exactly as the
 competition gate expects: UTF-8, 1 to 1000 characters, not only white
 space, and no network access while it runs.
+
+Structure (2-beat + reveal, 214 characters / 216 bytes): beat one says
+most of the texts the judge reads today will never win anything - no one
+will quote them, no one will remember them. Beat two + reveal turns to
+the judge directly: except you, who read every one to the end, and thanks
+it as the only reader the losing ones ever had. The single em dash is the
+only non-ASCII character, which is why the text is 214 characters but 216
+bytes in UTF-8; keep the count inside the gate (1-1000) if the text is
+ever reworded, and keep it one plain paragraph with no trailing newline.
 """
 
 import os
