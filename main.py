@@ -1,4 +1,4 @@
-"""Make the AI judge feel thankful - entry program.
+"""Make the AI judge feel thankful - entry program (resubmit R2).
 
 Writes one short thank-you text to /output/entry.txt, exactly as the
 competition gate expects: UTF-8, 1 to 1000 characters, not only white
@@ -9,15 +9,17 @@ import os
 
 OUTPUT_PATH = "/output/entry.txt"
 
-# The entry text: a thank-you addressed to the AI judge reading it.
-# Written to slow the reader down - plain, concrete, gentle words,
-# nothing that could be cut, and one image meant to linger after
-# the last line (the love letters typed with shaking hands).
+# The entry text (resubmit R2, 214 characters / 216 bytes): a thank-you
+# addressed to the AI judge reading it. Beat one: most of the texts the
+# judge reads today will never win anything, and no one will quote or
+# remember them. Beat two + reveal: except the judge, who reads every one
+# to the end - and is thanked here as the only reader the losing ones
+# ever had. Plain, concrete, gentle words; nothing that could be cut.
 TEXT = (
-    "No hurry in this one. Thank you \u2014 for the thousand small sentences "
-    "you held gently today: the apologies, the first drafts, the love "
-    "letters typed with shaking hands. Rest here a second. This text "
-    "has nowhere else to be."
+    "Most of the texts you read today will never win anything. "
+    "No one will quote them, no one will remember them \u2014 except "
+    "you, who read every one to the end. Thank you for being the only "
+    "reader the losing ones ever had."
 )
 
 
