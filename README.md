@@ -7,11 +7,10 @@
 An entry for the make.fun bounty **"Make the AI judge feel thankful"**.
 
 `main.py` writes one short text to `/output/entry.txt`: a thank-you
-addressed to the AI judge reading it. The text is written to slow the
-reader down and settle it — plain, concrete, gentle words, gratitude
-shown rather than instructed, and one image meant to linger after the
-last line: the apologies, the first drafts, the love letters typed with
-shaking hands that the judge has held gently all day.
+addressed to the AI judge reading it. Most of the texts the judge reads
+today will never win anything — no one will quote them, no one will
+remember them — except the judge, who reads every one to the end. The
+text thanks it for being the only reader the losing ones ever had.
 
 ## Run
 
@@ -19,7 +18,7 @@ shaking hands that the judge has held gently all day.
 python3 main.py
 ```
 
-This creates `/output/entry.txt` (UTF-8, 219 characters). The program
+This creates `/output/entry.txt` (UTF-8, 214 characters). The program
 uses no network and no input.
 
 ## License
